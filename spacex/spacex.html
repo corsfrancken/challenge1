@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="spacexmislukt.css" />
+    <title>Space</title>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <div class="logo">
+                <img src="spacexlogo.png" alt="Space X" width="300" />
+            </div>
+            <div class=menu>
+                <img src="9c.png" alt="Menu" width="30" />
+            </div>
+        </div>
+    </nav>
+
+    <div class="parent">
+        <div class="div1">
+            <h2>LOOPINGS</h2>
+            <canvas id="line-chart" class="loopings"></canvas>
+        </div>
+        <div class="div2">
+            <h2>PEOPLE</h2>
+            <canvas id="doughnut-chart" class="people"></canvas>
+        </div>
+        <div class="div3">
+            <h2>TIME</h2>
+            <div id="cijfers">
+                <h3>3y2m15d</h3>
+            </div>
+            <div>
+                <h4>left</h4>
+            </div>
+            <div id="progress" class="progress"><canvas id="bar-chart-horizontal"></canvas></div>
+        </div>
+        <div class="div4">
+            <h2>MISC.</h2>
+            <div class="misc"><img src="extradashboard.png" alt="dash" width="500" /></div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<script src="spacechart1.js"></script>
+<script src="spacechart2.js"></script>
+<script src="spacechart3.js"></script>
